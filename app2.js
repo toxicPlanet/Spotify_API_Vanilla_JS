@@ -24,7 +24,7 @@ form.addEventListener('submit', function(e) {
             accessToken = data.access_token
             displayTokenDiv.innerHTML = 'Your access token is : ' + accessToken
             loginForm.classList = 'inactive'
-            displayTokenDiv.classList = 'active'
+                //displayTokenDiv.classList = 'active'
             requestDiv.classList = 'active'
         }
     }

@@ -23,27 +23,24 @@ header .inactive {
 }
 
 #login-form * {
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 #login-form input {
-    padding: 3px;
+    padding: 2px;
 }
 
 #display-token {
     overflow-wrap: break-word;
 }
 
-#requests {
-    padding-top: 10px;
-}
-
-#request div {
-    margin: 3px;
-}
-
 #search {
-    padding: 3px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+#search-submit-button {
+    margin-top: 10px;
 }
 
 #requests-results {
